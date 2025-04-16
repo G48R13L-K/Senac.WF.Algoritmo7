@@ -1,4 +1,5 @@
-﻿namespace WF.Login
+﻿
+namespace WF.Login
 {
     partial class Form1
     {
@@ -47,7 +48,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.MediumBlue;
+            panel1.BackColor = Color.DarkOrange;
             panel1.Controls.Add(pictureBox3);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
@@ -100,8 +101,10 @@
             textBox1.Location = new Point(401, 153);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "USUARIO";
-            textBox1.Size = new Size(480, 24);
+            textBox1.Size = new Size(328, 24);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_Enter;
+            textBox1.Leave += textBox1_Leave;
             // 
             // textBox2
             // 
@@ -111,28 +114,33 @@
             textBox2.Location = new Point(401, 244);
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "SENHA";
-            textBox2.Size = new Size(480, 24);
-            textBox2.TabIndex = 4;
+            textBox2.Size = new Size(328, 24);
+            textBox2.TabIndex = 2;
+            textBox2.TextChanged += textBox1_Enter;
+            textBox2.Enter += textBox2_Enter_1;
+            textBox2.Leave += textBox2_Leave;
             // 
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
+            linkLabel1.LinkColor = Color.White;
             linkLabel1.Location = new Point(401, 454);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(90, 25);
+            linkLabel1.Size = new Size(143, 25);
             linkLabel1.TabIndex = 0;
             linkLabel1.TabStop = true;
-            linkLabel1.Text = "linkLabel1";
+            linkLabel1.Text = "Recuperar Senha";
             // 
             // Login
             // 
             Login.BackColor = Color.DarkGray;
+            Login.FlatAppearance.BorderSize = 0;
             Login.FlatStyle = FlatStyle.Popup;
-            Login.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Login.Font = new Font("Showcard Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Login.Location = new Point(401, 338);
             Login.Name = "Login";
             Login.Size = new Size(480, 55);
-            Login.TabIndex = 6;
+            Login.TabIndex = 3;
             Login.Text = "Login";
             Login.UseVisualStyleBackColor = false;
             // 
@@ -140,21 +148,21 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(400, 171);
+            label1.Location = new Point(397, 161);
             label1.Name = "label1";
-            label1.Size = new Size(285, 25);
+            label1.Size = new Size(341, 25);
             label1.TabIndex = 7;
-            label1.Text = "_______________________________________";
+            label1.Text = "_______________________________________________";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(400, 259);
+            label2.Location = new Point(397, 251);
             label2.Name = "label2";
-            label2.Size = new Size(285, 25);
+            label2.Size = new Size(341, 25);
             label2.TabIndex = 8;
-            label2.Text = "_______________________________________";
+            label2.Text = "_______________________________________________";
             // 
             // Form1
             // 
@@ -172,6 +180,7 @@
             Controls.Add(BtnClose);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            Location = new Point(750, 1000);
             Name = "Form1";
             Opacity = 0.9D;
             Text = "Form1";
@@ -181,6 +190,11 @@
             ((System.ComponentModel.ISupportInitialize)BtnMinimize).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void textBox1_TextEnter(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

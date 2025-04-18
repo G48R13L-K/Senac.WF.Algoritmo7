@@ -63,9 +63,189 @@ namespace WF.Login.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _317750_linkedin_icon {
+            get {
+                object obj = ResourceManager.GetObject("317750_linkedin_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _353424_instagram_logo_icon {
+            get {
+                object obj = ResourceManager.GetObject("353424_instagram_logo_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4229498_account_avatar_man_person_profile_icon {
+            get {
+                object obj = ResourceManager.GetObject("4229498_account_avatar_man_person_profile_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6071783_delivery_food_meal_order_food_delivery_icon {
+            get {
+                object obj = ResourceManager.GetObject("6071783_delivery_food_meal_order_food delivery_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6071783_delivery_food_meal_order_food_delivery_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("6071783_delivery_food_meal_order_food delivery_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6071783_delivery_food_meal_order_food_delivery_icon__2_ {
+            get {
+                object obj = ResourceManager.GetObject("6071783_delivery_food_meal_order_food delivery_icon (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6071783_delivery_food_meal_order_food_delivery_icon__3_ {
+            get {
+                object obj = ResourceManager.GetObject("6071783_delivery_food_meal_order_food delivery_icon (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6071826_delivery_food_meal_order_food_delivery_icon {
+            get {
+                object obj = ResourceManager.GetObject("6071826_delivery_food_meal_order_food delivery_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6636566_instagram_social_media_social_network_icon {
+            get {
+                object obj = ResourceManager.GetObject("6636566_instagram_social media_social network_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7218123_purse_fashion_handbag_finance_currency_icon {
+            get {
+                object obj = ResourceManager.GetObject("7218123_purse_fashion_handbag_finance_currency_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7429335_food_delivery_service_take_away_restaurant_icon {
+            get {
+                object obj = ResourceManager.GetObject("7429335_food_delivery_service_take away_restaurant_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7429340_food_delivery_service_take_away_restaurant_icon {
+            get {
+                object obj = ResourceManager.GetObject("7429340_food_delivery_service_take away_restaurant_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _834722_facebook_icon {
+            get {
+                object obj = ResourceManager.GetObject("834722_facebook_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8665141_burger_food_icon {
+            get {
+                object obj = ResourceManager.GetObject("8665141_burger_food_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8665141_burger_food_icon__1_ {
+            get {
+                object obj = ResourceManager.GetObject("8665141_burger_food_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8760278_food_delivery_courier_rating_avatar_icon {
+            get {
+                object obj = ResourceManager.GetObject("8760278_food_delivery_courier_rating_avatar_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8760286_food_delivery_discount_restaurant_online_icon {
+            get {
+                object obj = ResourceManager.GetObject("8760286_food_delivery_discount_restaurant_online_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fechar_incon {
             get {
                 object obj = ResourceManager.GetObject("fechar incon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hco4dpzg {
+            get {
+                object obj = ResourceManager.GetObject("hco4dpzg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +266,17 @@ namespace WF.Login.Properties {
         internal static System.Drawing.Bitmap minimize_icon_23 {
             get {
                 object obj = ResourceManager.GetObject("minimize-icon-23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap restaurant_delicious_food_logo_badge_line_style_design_with_smile_face_fork_and_spoon_icon_concept_for_catering_food_culinary_logo_design_vector {
+            get {
+                object obj = ResourceManager.GetObject("restaurant-delicious-food-logo-badge-line-style-design-with-smile-face-fork-and-s" +
+                        "poon-icon-concept-for-catering-food-culinary-logo-design-vector", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

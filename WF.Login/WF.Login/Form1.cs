@@ -9,12 +9,10 @@ namespace WF.Login
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            var resposta = MessageBox.Show("Você deseja encerrar o programa?", "Titulo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (resposta == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+
+            Application.Exit();
         }
+
 
         private void BtnMinimize_Click(object sender, EventArgs e)
         {
@@ -57,6 +55,22 @@ namespace WF.Login
             {
                 textBox2.Text = string.Empty;
             }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            var resposta = MessageBox.Show("Você deseja encerrar o programa?", "Titulo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (resposta == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var formPrincipal= new FormPrincipal();
+            formPrincipal.Show();
         }
     }
 }

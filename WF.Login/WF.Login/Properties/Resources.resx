@@ -118,13 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="fechar incon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fechar incon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="317750_linkedin_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\317750_linkedin_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restaurant-delicious-food-logo-badge-line-style-design-with-smile-face-fork-and-spoon-icon-concept-for-catering-food-culinary-logo-design-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurant-delicious-food-logo-badge-line-style-design-with-smile-face-fork-and-spoon-icon-concept-for-catering-food-culinary-logo-design-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="353424_instagram_logo_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\353424_instagram_logo_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6071826_delivery_food_meal_order_food delivery_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6071826_delivery_food_meal_order_food delivery_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize-icon-23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize-icon-23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6071783_delivery_food_meal_order_food delivery_icon (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6071783_delivery_food_meal_order_food delivery_icon (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7429335_food_delivery_service_take away_restaurant_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7429335_food_delivery_service_take away_restaurant_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7429340_food_delivery_service_take away_restaurant_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7429340_food_delivery_service_take away_restaurant_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imageslogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imageslogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="minimize-icon-23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimize-icon-23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hco4dpzg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hco4dpzg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6636566_instagram_social media_social network_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6636566_instagram_social media_social network_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7218123_purse_fashion_handbag_finance_currency_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7218123_purse_fashion_handbag_finance_currency_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6071783_delivery_food_meal_order_food delivery_icon (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6071783_delivery_food_meal_order_food delivery_icon (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6071783_delivery_food_meal_order_food delivery_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6071783_delivery_food_meal_order_food delivery_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8760278_food_delivery_courier_rating_avatar_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8760278_food_delivery_courier_rating_avatar_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fechar incon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fechar incon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8665141_burger_food_icon (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8665141_burger_food_icon (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6071783_delivery_food_meal_order_food delivery_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6071783_delivery_food_meal_order_food delivery_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8665141_burger_food_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8665141_burger_food_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8760286_food_delivery_discount_restaurant_online_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8760286_food_delivery_discount_restaurant_online_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="834722_facebook_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\834722_facebook_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4229498_account_avatar_man_person_profile_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4229498_account_avatar_man_person_profile_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -58,7 +58,7 @@ namespace WF.Login
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Image = Properties.Resources._8665141_burger_food_icon;
             pictureBox3.Location = new Point(0, 133);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(276, 305);
@@ -97,6 +97,7 @@ namespace WF.Login
             // 
             textBox1.BackColor = SystemColors.MenuText;
             textBox1.BorderStyle = BorderStyle.None;
+            textBox1.Font = new Font("Lucida Fax", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.ForeColor = SystemColors.GrayText;
             textBox1.Location = new Point(401, 153);
             textBox1.Name = "textBox1";
@@ -110,6 +111,7 @@ namespace WF.Login
             // 
             textBox2.BackColor = SystemColors.MenuText;
             textBox2.BorderStyle = BorderStyle.None;
+            textBox2.Font = new Font("Lucida Fax", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox2.ForeColor = SystemColors.GrayText;
             textBox2.Location = new Point(401, 244);
             textBox2.Name = "textBox2";
@@ -141,8 +143,9 @@ namespace WF.Login
             Login.Name = "Login";
             Login.Size = new Size(480, 55);
             Login.TabIndex = 3;
-            Login.Text = "Login";
+            Login.Text = "Entrar";
             Login.UseVisualStyleBackColor = false;
+            Login.Click += Login_Click;
             // 
             // label1
             // 
@@ -180,10 +183,12 @@ namespace WF.Login
             Controls.Add(BtnClose);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Location = new Point(750, 1000);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Opacity = 0.9D;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            FormClosing += Form1_FormClosing;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)BtnClose).EndInit();

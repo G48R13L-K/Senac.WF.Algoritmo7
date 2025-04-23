@@ -1,7 +1,7 @@
 ﻿
 namespace WF.Login
 {
-    partial class Form1
+    partial class FormLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,7 +29,7 @@ namespace WF.Login
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             panel1 = new Panel();
             pictureBox3 = new PictureBox();
             BtnClose = new PictureBox();
@@ -69,9 +69,8 @@ namespace WF.Login
             // BtnClose
             // 
             BtnClose.AccessibleRole = AccessibleRole.TitleBar;
-            BtnClose.BackColor = Color.White;
+            BtnClose.BackColor = Color.DarkOrange;
             BtnClose.BackgroundImageLayout = ImageLayout.None;
-            BtnClose.BorderStyle = BorderStyle.Fixed3D;
             BtnClose.ErrorImage = Properties.Resources.fechar_incon;
             BtnClose.Image = Properties.Resources.fechar_incon;
             BtnClose.Location = new Point(973, 12);
@@ -84,6 +83,7 @@ namespace WF.Login
             // 
             // BtnMinimize
             // 
+            BtnMinimize.BackColor = Color.DarkOrange;
             BtnMinimize.Image = Properties.Resources.minimize_icon_23;
             BtnMinimize.Location = new Point(929, 11);
             BtnMinimize.Name = "BtnMinimize";
@@ -167,7 +167,7 @@ namespace WF.Login
             label2.TabIndex = 8;
             label2.Text = "_______________________________________________";
             // 
-            // Form1
+            // FormLogin
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -184,7 +184,7 @@ namespace WF.Login
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Form1";
+            Name = "FormLogin";
             Opacity = 0.9D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";

@@ -1,6 +1,6 @@
 ﻿namespace WF.Login
 {
-    partial class FormPrincipal
+    partial class FormClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@
             buttonEntregas = new Button();
             buttonPagto = new Button();
             buttonClientes = new Button();
-            buttonProduto = new Button();
+            buttonProdutos = new Button();
             buttonHome = new Button();
             panel4 = new Panel();
             BtnClose = new PictureBox();
@@ -60,7 +60,7 @@
             panel1.Controls.Add(buttonEntregas);
             panel1.Controls.Add(buttonPagto);
             panel1.Controls.Add(buttonClientes);
-            panel1.Controls.Add(buttonProduto);
+            panel1.Controls.Add(buttonProdutos);
             panel1.Controls.Add(buttonHome);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
@@ -108,10 +108,10 @@
             // 
             // buttonClientes
             // 
-            buttonClientes.BackColor = Color.Transparent;
+            buttonClientes.BackColor = Color.Goldenrod;
             buttonClientes.FlatAppearance.BorderSize = 0;
-            buttonClientes.FlatAppearance.MouseDownBackColor = Color.White;
-            buttonClientes.FlatAppearance.MouseOverBackColor = Color.Gray;
+            buttonClientes.FlatAppearance.MouseDownBackColor = Color.Goldenrod;
+            buttonClientes.FlatAppearance.MouseOverBackColor = Color.Goldenrod;
             buttonClientes.FlatStyle = FlatStyle.Flat;
             buttonClientes.Font = new Font("Lucida Fax", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             buttonClientes.ForeColor = SystemColors.ControlText;
@@ -123,33 +123,32 @@
             buttonClientes.TabIndex = 0;
             buttonClientes.Text = "Clientes";
             buttonClientes.UseVisualStyleBackColor = false;
-            buttonClientes.Click += buttonClientes_Click;
             // 
-            // buttonProduto
+            // buttonProdutos
             // 
-            buttonProduto.BackColor = Color.Transparent;
-            buttonProduto.FlatAppearance.BorderSize = 0;
-            buttonProduto.FlatAppearance.MouseDownBackColor = Color.White;
-            buttonProduto.FlatAppearance.MouseOverBackColor = Color.Gray;
-            buttonProduto.FlatStyle = FlatStyle.Flat;
-            buttonProduto.Font = new Font("Lucida Fax", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            buttonProduto.ForeColor = SystemColors.ControlText;
-            buttonProduto.Image = Properties.Resources._7429335_food_delivery_service_take_away_restaurant_icon;
-            buttonProduto.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonProduto.Location = new Point(30, 126);
-            buttonProduto.Name = "buttonProduto";
-            buttonProduto.Size = new Size(228, 67);
-            buttonProduto.TabIndex = 0;
-            buttonProduto.Text = "Produtos";
-            buttonProduto.UseVisualStyleBackColor = false;
-            buttonProduto.Click += button2_Click;
+            buttonProdutos.BackColor = Color.Transparent;
+            buttonProdutos.FlatAppearance.BorderSize = 0;
+            buttonProdutos.FlatAppearance.MouseDownBackColor = Color.White;
+            buttonProdutos.FlatAppearance.MouseOverBackColor = Color.Gray;
+            buttonProdutos.FlatStyle = FlatStyle.Flat;
+            buttonProdutos.Font = new Font("Lucida Fax", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            buttonProdutos.ForeColor = SystemColors.ControlText;
+            buttonProdutos.Image = Properties.Resources._7429335_food_delivery_service_take_away_restaurant_icon;
+            buttonProdutos.ImageAlign = ContentAlignment.MiddleLeft;
+            buttonProdutos.Location = new Point(30, 126);
+            buttonProdutos.Name = "buttonProdutos";
+            buttonProdutos.Size = new Size(228, 67);
+            buttonProdutos.TabIndex = 0;
+            buttonProdutos.Text = "Produtos";
+            buttonProdutos.UseVisualStyleBackColor = false;
+            buttonProdutos.Click += buttonProdutos_Click;
             // 
             // buttonHome
             // 
-            buttonHome.BackColor = Color.Goldenrod;
+            buttonHome.BackColor = Color.Transparent;
             buttonHome.FlatAppearance.BorderSize = 0;
-            buttonHome.FlatAppearance.MouseDownBackColor = Color.Goldenrod;
-            buttonHome.FlatAppearance.MouseOverBackColor = Color.Goldenrod;
+            buttonHome.FlatAppearance.MouseDownBackColor = Color.White;
+            buttonHome.FlatAppearance.MouseOverBackColor = Color.Gray;
             buttonHome.FlatStyle = FlatStyle.Flat;
             buttonHome.Font = new Font("Lucida Fax", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             buttonHome.ForeColor = SystemColors.ControlText;
@@ -161,6 +160,7 @@
             buttonHome.TabIndex = 0;
             buttonHome.Text = "Home";
             buttonHome.UseVisualStyleBackColor = false;
+            buttonHome.Click += buttonHome_Click;
             // 
             // panel4
             // 
@@ -186,7 +186,7 @@
             BtnClose.Name = "BtnClose";
             BtnClose.Size = new Size(33, 31);
             BtnClose.SizeMode = PictureBoxSizeMode.Zoom;
-            BtnClose.TabIndex = 2;
+            BtnClose.TabIndex = 3;
             BtnClose.TabStop = false;
             BtnClose.Click += BtnClose_Click;
             // 
@@ -270,7 +270,7 @@
             label2.TabIndex = 8;
             label2.Text = "Gestão de Delivery";
             // 
-            // FormPrincipal
+            // FormClientes
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -286,7 +286,7 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
-            Name = "FormPrincipal";
+            Name = "FormClientes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "SenacFoods";
             panel1.ResumeLayout(false);
@@ -311,7 +311,7 @@
         private Button buttonEntregas;
         private Button buttonPagto;
         private Button buttonClientes;
-        private Button buttonProduto;
+        private Button buttonProdutos;
         private Panel panel2;
         private Label label1;
         private PictureBox pictureBox1;
